@@ -1,10 +1,9 @@
 import React from 'react'
+import { default as PageHeader} from '../Components/Shared/PageHeader/Index'
 
 export default function Service() {
+    const header = "Service";
     return (
-        <div>
-            <header>Service page</header>
-            <p>this is my home page</p>
-        </div>
+            <PageHeader pageHeader={header} />
     )
 }

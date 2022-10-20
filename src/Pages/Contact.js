@@ -1,10 +1,9 @@
 import React from 'react'
+import { default as PageHeader} from '../Components/Shared/PageHeader/Index'
 
 export default function Contact() {
+    const header = "Contact";
     return (
-        <div>
-            <header>contact page</header>
-            <p>this is my home page</p>
-        </div>
+        <PageHeader pageHeader={header} />
     )
 }
